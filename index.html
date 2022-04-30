@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <div  style=" font: 2rem sans-serif; padding: 2rem; background-color: rgb(181, 21, 230); color:rgb(8, 71, 2);text-align: center;"> <b>Esenyurt Üniversitesi Harf Notu Hesaplama</b> </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label" style="color:red;"> <b> Sınıf ortalamasını girin:</b></label>
+    <input type="number" step="0.01" class="form-control" id="ortalama" placeholder="ortalama">
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label" style="color:red;"> <b>Sınıf standart sapmasını girin:</b> </label>
+    <input type="number" step="0.01" class="form-control" id="ssapma" placeholder="standart sapma">
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label" style="color:red;"> <b>Kendi notunuzu girin:</b> </label>
+    <input type="number" step="0.01" class="form-control" id="not" placeholder="notunuz">
+  </div>
+  <button id="btn" class="btn btn-success">Notumu hesaplar mısın?</button>
+  <hr>
+  <div style="color:red;"> <b>harf notunuz: </b> </div>
+  <br>
+    <input type="text" name="sonuc" id="sonuc">
+    <hr>
+    <div>Bu site <b>Rıdvan Şit</b> tarafından tasarlanmıştır:) Esenyurt Üniversitesi'nin bağıl değerlendirme sisteminin bir kısmı baz alınarak programlanmıştır. Tamamen fikir verme amaçlıdır. Esas hesaplama yönergesi aşağıdaki gibidir. Umarım işinize yarar.</div>
+    <a href="https://aday.esenyurt.edu.tr/static/announcement/21-02/04/bagil-degerlendirme-sistemi-uygulama-yonergesi.pdf">bagil-degerlendirme-sistemi-uygulama-yonergesi</a>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
