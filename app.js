@@ -1,11 +1,12 @@
 
+
 document.getElementById("btn").addEventListener("click",hesapla);
 function hesapla(){
     const ort = parseFloat(document.getElementById("ortalama").value) ;
     const ssapma = parseFloat(document.getElementById("ssapma").value) ;
     const not = parseFloat(document.getElementById("not").value);
     let t = 10*(not-ort)/ssapma+50;
-    console.log(t);
+    
     let sonuc1 = katalog(not);
     let sonuc2 = uygunTablo(t,ort);
     let tsonuc;
@@ -15,7 +16,7 @@ function hesapla(){
    harfnotu(tsonuc);
 
 
-    console.log(tsonuc);
+    
     
 }
 function katalog(not){
@@ -136,38 +137,38 @@ function uygunTablo(tnotu,ortalamaNot){
 function harfnotu(tsonuc){
     if(tsonuc===40)
     {
-        document.getElementById("sonuc").value = "AA"
+        document.getElementById("sonuc").innerText = "AA"
     }
     if(tsonuc===35)
     {
-        document.getElementById("sonuc").value = "BA"
+        document.getElementById("sonuc").innerText = "BA"
     }
     if(tsonuc===30)
     {
-        document.getElementById("sonuc").value = "BB"
+        document.getElementById("sonuc").innerText = "BB"
     }
     if(tsonuc===25)
     {
-        document.getElementById("sonuc").value = "CB"
+        document.getElementById("sonuc").innerText = "  CB  "
     }
     if(tsonuc===20)
     {
-        document.getElementById("sonuc").value = "CC"
+        document.getElementById("sonuc").innerText = "  CC  "
     }
     if(tsonuc===15)
     {
-        document.getElementById("sonuc").value = "DC"
+        document.getElementById("sonuc").innerText = "  DC  "
     }
     if(tsonuc===10)
     {
-        document.getElementById("sonuc").value = "DD"
+        document.getElementById("sonuc").innerText = "  DD  "
     }
     if(tsonuc===5)
     {
-        document.getElementById("sonuc").value = "FD"
+        document.getElementById("sonuc").innerText = "  FD  "
     }
     if(tsonuc===0)
     {
-        document.getElementById("sonuc").value = "FF"
+        document.getElementById("sonuc").innerText = "  FF  "
     }
 }
