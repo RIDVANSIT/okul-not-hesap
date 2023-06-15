@@ -137,38 +137,38 @@ function uygunTablo(tnotu,ortalamaNot){
 function harfnotu(tsonuc){
     if(tsonuc===40)
     {
-        document.getElementById("sonuc").innerText = "AA bravoo aynştayn:)"
+        document.getElementById("sonuc").innerText = "AA 🤓"
     }
     if(tsonuc===35)
     {
-        document.getElementById("sonuc").innerText = "BA helal olsun:)"
+        document.getElementById("sonuc").innerText = "BA 🤣"
     }
     if(tsonuc===30)
     {
-        document.getElementById("sonuc").innerText = "BB çalışkan şey:)"
+        document.getElementById("sonuc").innerText = "BB 😂"
     }
     if(tsonuc===25)
     {
-        document.getElementById("sonuc").innerText = "  CB gayet iyi:) "
+        document.getElementById("sonuc").innerText = "  CB 😁 "
     }
     if(tsonuc===20)
     {
-        document.getElementById("sonuc").innerText = "  CC allah bereket versin "
+        document.getElementById("sonuc").innerText = "  CC 🙂 "
     }
     if(tsonuc===15)
     {
-        document.getElementById("sonuc").innerText = "  DC  kıl payı yırttın"
+        document.getElementById("sonuc").innerText = "  DC 🫠"
     }
     if(tsonuc===10)
     {
-        document.getElementById("sonuc").innerText = "  DD  bir adım aşağısı uçurum:)"
+        document.getElementById("sonuc").innerText = "  DD  😏"
     }
     if(tsonuc===5)
     {
-        document.getElementById("sonuc").innerText = "  FD  ooo kimleri görüyorum  "
+        document.getElementById("sonuc").innerText = "  FD  🥴"
     }
     if(tsonuc===0)
     {
-        document.getElementById("sonuc").innerText = "  FF sistem yanlış dostum sen doğrusun! "
+        document.getElementById("sonuc").innerText = "  FF 😵‍💫 "
     }
 }
